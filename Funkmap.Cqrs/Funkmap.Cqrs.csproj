@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>BandmapDev</Authors>
+    <Company>Bandmap</Company>
+    <Product>Bandmap</Product>
+    <Description>Tools for CQRS implementation</Description>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.0" />
+    <PackageReference Include="Funkmap.Common" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

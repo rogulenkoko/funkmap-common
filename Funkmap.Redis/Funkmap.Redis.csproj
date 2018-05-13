@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>BandmapDev</Authors>
+    <Company>Bandmap</Company>
+    <Product>Bandmap</Product>
+    <Description>Redis implementation of service bus and cache storage (from Funkmap.Common).</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Funkmap.Cqrs" Version="1.0.1" />
+    <PackageReference Include="StackExchange.Redis" Version="1.2.6" />
+  </ItemGroup>
+
+</Project>

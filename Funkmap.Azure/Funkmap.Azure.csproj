@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>BandmapDev</Authors>
+    <Company>Bandmap</Company>
+    <Product>Bandmap</Product>
+    <Description>Azure implementation of IFileStorage (from Funkmap.Common).</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Funkmap.Common" Version="1.0.1" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.1.1" />
+  </ItemGroup>
+
+</Project>

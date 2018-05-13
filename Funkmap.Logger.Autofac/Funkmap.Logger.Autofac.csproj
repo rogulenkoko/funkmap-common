@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>Bandmap</Company>
+    <Authors>BandmapDev</Authors>
+    <Product>BandmapBandmap</Product>
+    <Copyright>BandmapDev</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Funkmap.Common" Version="1.0.0" />
+    <PackageReference Include="Funkmap.Logger" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

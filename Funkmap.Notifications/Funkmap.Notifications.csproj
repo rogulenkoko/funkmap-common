@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Funkmap.Common" Version="1.0.1" />
+    <PackageReference Include="Funkmap.Logger" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Templates\base-template.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

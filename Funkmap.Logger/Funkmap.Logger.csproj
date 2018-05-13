@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>Bandmap</Company>
+    <Authors>BandmapDev</Authors>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Description>Generic logger (NLog)</Description>
+    <Copyright>BandmapDev</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.5.4" />
+  </ItemGroup>
+
+</Project>
